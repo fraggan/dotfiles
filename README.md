@@ -1,13 +1,9 @@
 # Installation
 ### Download and change folder
 ```
-cd ~
+cd
 git clone https://github.com/fraggan/dotfiles.git
-
 cd dotfiles
-```
-### Run intstall
-```
 ./install.sh
 ```
 
