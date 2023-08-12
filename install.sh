@@ -8,8 +8,8 @@ done
  if hash vim-addon  2>/dev/null; then
          echo "vim-addon (vim-scripts)  installed"
      else
-         echo "vim-addon (vim-scripts) not installed, running 'sudo apt update; sudo apt install bc'"
-         sudo apt update; sudo apt install vim-scripts
+         echo "vim-addon (vim-scripts) not installed, running 'sudo apt update && sudo apt install bc'"
+         sudo apt update && sudo apt install vim-scripts -y
 fi
 
 echo "Installed"
