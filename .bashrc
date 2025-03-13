@@ -129,4 +129,4 @@ if ! shopt -oq posix; then
 fi
 bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'
-neofetch
+screenfetch
